@@ -48,4 +48,14 @@ of_property_read_u32()	Read reg-like values from DT
 
 module_init/exit	Tells kernel how to load/unload module
 
+get child prop 
+
+================
+
+🔍 Key APIs Used:
+
+for_each_child_of_node(parent, child): Iterates over child nodes.
+
+of_property_read_string(): Reads string properties like "prop1".
+
 
