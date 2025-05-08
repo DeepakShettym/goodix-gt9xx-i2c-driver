@@ -1,0 +1,15 @@
+my_device@0 {
+    compatible = "vendor,my-device";
+    
+    child0 {
+        prop1 = "value0";
+    };
+
+    child1 {
+        prop1 = "value1";
+    };
+
+    child2 {
+        prop1 = "value2";
+    };
+};
